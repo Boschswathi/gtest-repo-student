@@ -11,3 +11,13 @@ TEST(StringCalculatorTestSuite,GivenEmptyStringZeroIsExpected){
     //Assert
     ASSERT_EQ(actualValue,expectedValue);
 }
+TEST(StringCalculatorTestSuite,GivenInputStringZeroOutputIsZeroExpected){
+//Arrange
+StringCalculator objUnderTest;
+string input="0";
+int expectedValue=0;
+//Act
+int actualValue= objUnderTest.add(input);
+//assert
+ASSERT_EQ(actualValue,expectedValue);
+}
