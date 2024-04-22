@@ -16,7 +16,7 @@ TEST(StringCalculatorTestSuite,Given2numbers){
     //Arrangee
     StringCalculator objUnderTest;
     string input="1,2";
-    int expectedValue=3;
+    int expectedValue=4;
     //Act
    int actualValue=  objUnderTest.Add(input);
     //Assert
