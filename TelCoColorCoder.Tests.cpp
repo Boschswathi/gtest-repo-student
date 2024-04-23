@@ -1,7 +1,7 @@
-#include "StringCalculator.h"
+#include "numberOfMajorColors.h"
 #include <gtest/gtest.h>
  
-TEST(StringCalculatorTestSuite,GivenEmptyStringZeroIsExpected){
+TEST(TelCoColorCoderTestSuite,numberOfMajorColors){
     //Arrangee
     StringCalculator objUnderTest;
     string input="";
