@@ -5,7 +5,7 @@
 
 using namespace std;
 
-class StringCalculator {
+class TelCoColorCoder {
 public:
 	int Add(const string &input);
 };
