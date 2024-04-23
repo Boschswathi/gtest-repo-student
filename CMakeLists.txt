@@ -20,7 +20,7 @@ add_executable(
   StringCalculatorTests
   StringCalculator.cpp
   StringCalculator.Tests.cpp
-  parameterized.Tests.cpp
+  TelCoColorCoder.Tests.cpp
 )
 target_link_libraries(
   StringCalculatorTests
